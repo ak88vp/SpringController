@@ -58,6 +58,5 @@
   <input type="text" name="numberB" value="${numberB}">
   <button name="result" value="Cong">+</button><button name="result" value="tru">-</button><button name="result" value="nhan">X</button><button name="result" value="chia">/</button>
 </form>
-kết quả : ${result}
 </body>
 </html>

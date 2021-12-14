@@ -76,26 +76,30 @@ public class EmailController {
                 model.addAttribute("result", a + b);
                 model.addAttribute("numberA", a);
                 model.addAttribute("numberB", b);
+                model.addAttribute("xxx","+");
                 break;
             case "tru":
                 model.addAttribute("result", a - b);
                 model.addAttribute("numberA", a);
                 model.addAttribute("numberB", b);
+                model.addAttribute("xxx","-");
                 break;
             case "nhan":
                 model.addAttribute("result", a * b);
                 model.addAttribute("numberA", a);
                 model.addAttribute("numberB", b);
+                model.addAttribute("xxx","x");
                 break;
             case "chia":
                 model.addAttribute("result", a / b);
                 model.addAttribute("numberA", a);
                 model.addAttribute("numberB", b);
+                model.addAttribute("xxx","/");
                 break;
 
         }
 
-        return "redirect:index";
+        return "calculator";
     }
 
 
